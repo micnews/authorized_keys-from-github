@@ -1,0 +1,29 @@
+{
+  "name": "authorized_keys-from-github",
+  "version": "0.0.0",
+  "description": "Generate a authorized_keys-file based on public keys from github",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micnews/authorized_keys-from-github"
+  },
+  "author": "David Björklund <david.bjorklund@gmail.com> (http://davidbjorklund.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micnews/authorized_keys-from-github/issues"
+  },
+  "homepage": "https://github.com/micnews/authorized_keys-from-github",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "map-async": "^0.1.1",
+    "request": "^2.53.0"
+  },
+  "bin": {
+    "authorized_keys-from-github": "bin/generate.js"
+  }
+}
