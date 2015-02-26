@@ -1,6 +1,6 @@
 {
   "name": "authorized_keys-from-github",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate a authorized_keys-file based on public keys from github",
   "main": "index.js",
   "scripts": {
